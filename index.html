@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkIt</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <div class="nav">
+            <div id="logo">
+            <a  href="index.html">Markit</a></div>
+            <a href="#student">Student panel</a>
+            <a href="#admin">Admin Panel</a> 
+            <a href="register.html">Register</a> 
+            
+    </div>
+    
+    <div class="image">
+        <div id="text"><h2>attendance management system</h2>
+        <h6>created by adeel</h6></div>
+    </div>
+
+    <div id="student" class="main">
+        <div class="heading"><h2 >Welcome to student Panel</h2></div>
+        <div class="container">
+              <div class="profile-pic">
+                <img src="profile.jpeg" alt="Profile Picture" id="profileImage">
+                <input type="file" id="profilePicUpload">
+                <button onclick="updateProfilePic()">Update Profile Picture</button>
+            </div>
+            <div class="buttons">
+                <button onclick="markAttendance()">Mark Attendance</button>
+                <button onclick="sendLeaveRequest()">Mark Leave</button>
+                <button onclick="viewAttendance()">View Attendance</button>
+            </div>
+
+        </div>
+        </div>
+        <div id="admin" class="main">
+            <div class="heading"><h2 >Welcome to Admin Panel</h2></div>
+            <div class="container2">
+                <div class="buttons">
+                    <button onclick="viewAllRecords()">View All Records</button>
+                    <button onclick="generateReport()">Generate Report</button>
+                    <button onclick="manageGrades()">Manage Grades</button>
+                    <button onclick="manageLeaveRequests()">Manage Leave Requests</button>
+                </div>   
+       
+            </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>

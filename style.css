@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0pxs;
+}
+::-webkit-scrollbar {
+    width: 20px;
+    
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color:black;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #f0c22a;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #f0c22a;
+  }
+  
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    justify-content: center;
+     /* position:fixed;  */
+  
+}
+.nav a{
+    color:aliceblue;
+    font-size:20px ;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 70px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color:rgb(58, 209, 134);
+    text-decoration: underline rgb(58, 209, 134) ;
+}
+#logo{
+    flex:1px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+#logo a{
+    font-size: 30px;
+    color: #f0c22a;
+    font-family:"cursive";
+}
+#logo a:hover{
+    color:rgb(58, 209, 134);
+    text-decoration: underline rgb(58, 209, 134) ;
+}
+.image h2{
+    margin-top: 30px;
+}
+.image{
+    width:100%;
+    height: 850px;
+    display:flex;
+    margin-top: 0px;
+    background-size:cover ;
+    background-image: url("attandance.jpg"); 
+    
+    justify-content: center;
+}
+#text{
+    margin-top:40%;
+    justify-content: center;
+}
+#text h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #f0c22a;
+}
+#text h6{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.main{
+   
+    width:100%;
+    height: 1000px;
+  
+    background-color: white;
+  
+}
+.heading{
+    display: block;
+    width: 100%;
+}
+.heading h2{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 50px;
+    color: #f0c22a;
+    text-transform: capitalize;
+    text-decoration: underline #f0c22a;
+}
+.container{
+    width:900px;
+    height:840px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left:220px ;
+    margin-top: 90px;
+    border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+.profile-pic{
+   width: 500px;
+   height: 500px;
+   border: 4px solid #f0c22a;
+   margin-left: 200px; 
+   margin-top: 30px;
+   border-radius: 30px;
+ 
+}
+.profile-pic img{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#profilePicUpload{
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 270px;
+    font-size: 20px;
+    color:#f0c22a;
+    background-color: black;
+    border-radius: 10px;
+}
+.profile-pic button{
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 290px;
+    font-size: 20px;
+    color:#f0c22a;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+} 
+.profile-pic button:hover{
+    background-color: rgb(0, 0, 0);
+}
+.buttons{
+    width: 100%;
+   height:250px;
+   margin-top:50px;
+   background-color: white;
+   align-items: center;
+
+}
+.buttons button{
+
+ display: block;
+
+ margin-top: 20px;
+font-size: 40px;
+margin-left: 200px;
+width: 507px;
+border-radius:10px ;
+text-align: center;
+border:2px solid black;
+background-color: rgb(255, 255, 255);
+color: #f0c22a; 
+}
+.buttons button:hover{
+    background-color: rgb(0, 0, 0);
+}
+.container2{
+    width:900px;
+    height:370px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left:220px ;
+    margin-top: 90px;
+    border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+.container3{
+    width:500px;
+    height:470px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left:380px ;
+    margin-top: 90px;
+    border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+  padding: 40px;
+  padding-top: 70px;
+}
+label {
+    display: block;
+    padding-top: 20px;
+    margin-left: 0px;
+    font-size: 25px;
+  }
+  input[type="text"], input[type="email"], input[type="password"], input[type="file"] {
+    width:500px;
+    height:px;
+    font-size: 25px;
+    background-color: #fff;
+    margin-top: 1px;
+
+    border: 1px solid #f0c22a;
+    border-radius: 5px;
+  }
+  .container3 button {
+    width: 507px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color:white;
+    border:2px solid black;
+    border-radius: 10px;
+    color: #f0c22a;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .container3 button:hover{
+    background-color: rgb(0, 0, 0);
+  }
+ 
+  .container4{
+    width:500px;
+    height:300px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left:380px ;
+    margin-top: 90px;
+    border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+  padding: 40px;
+  padding-top: 70px;
+}
+.container4 button {
+    width: 507px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color:white;
+    border:2px solid black;
+    border-radius: 10px;
+    color: #f0c22a;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .container4 button:hover{
+    background-color: rgb(0, 0, 0);
+  }
